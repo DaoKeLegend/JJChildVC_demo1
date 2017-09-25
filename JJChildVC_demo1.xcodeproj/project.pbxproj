@@ -13,6 +13,9 @@
 		0458B6971F78E69300C1F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458B6961F78E69300C1F007 /* Assets.xcassets */; };
 		0458B69A1F78E69300C1F007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458B6981F78E69300C1F007 /* LaunchScreen.storyboard */; };
 		0458B69D1F78E69300C1F007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B69C1F78E69300C1F007 /* main.m */; };
+		0458B6A51F78E6DA00C1F007 /* JJChildVCOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B6A41F78E6DA00C1F007 /* JJChildVCOne.m */; };
+		0458B6A81F78E6EC00C1F007 /* JJChildVCTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B6A71F78E6EC00C1F007 /* JJChildVCTwo.m */; };
+		0458B6AB1F78E6FD00C1F007 /* JJChildVCThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B6AA1F78E6FD00C1F007 /* JJChildVCThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		0458B6991F78E69300C1F007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0458B69B1F78E69300C1F007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0458B69C1F78E69300C1F007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0458B6A31F78E6DA00C1F007 /* JJChildVCOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChildVCOne.h; sourceTree = "<group>"; };
+		0458B6A41F78E6DA00C1F007 /* JJChildVCOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChildVCOne.m; sourceTree = "<group>"; };
+		0458B6A61F78E6EC00C1F007 /* JJChildVCTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChildVCTwo.h; sourceTree = "<group>"; };
+		0458B6A71F78E6EC00C1F007 /* JJChildVCTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChildVCTwo.m; sourceTree = "<group>"; };
+		0458B6A91F78E6FD00C1F007 /* JJChildVCThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChildVCThree.h; sourceTree = "<group>"; };
+		0458B6AA1F78E6FD00C1F007 /* JJChildVCThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChildVCThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				0458B68E1F78E69300C1F007 /* AppDelegate.m */,
 				0458B6901F78E69300C1F007 /* ViewController.h */,
 				0458B6911F78E69300C1F007 /* ViewController.m */,
+				0458B6A31F78E6DA00C1F007 /* JJChildVCOne.h */,
+				0458B6A41F78E6DA00C1F007 /* JJChildVCOne.m */,
+				0458B6A61F78E6EC00C1F007 /* JJChildVCTwo.h */,
+				0458B6A71F78E6EC00C1F007 /* JJChildVCTwo.m */,
+				0458B6A91F78E6FD00C1F007 /* JJChildVCThree.h */,
+				0458B6AA1F78E6FD00C1F007 /* JJChildVCThree.m */,
 				0458B6931F78E69300C1F007 /* Main.storyboard */,
 				0458B6961F78E69300C1F007 /* Assets.xcassets */,
 				0458B6981F78E69300C1F007 /* LaunchScreen.storyboard */,
@@ -142,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0458B6AB1F78E6FD00C1F007 /* JJChildVCThree.m in Sources */,
+				0458B6A51F78E6DA00C1F007 /* JJChildVCOne.m in Sources */,
 				0458B6921F78E69300C1F007 /* ViewController.m in Sources */,
 				0458B69D1F78E69300C1F007 /* main.m in Sources */,
+				0458B6A81F78E6EC00C1F007 /* JJChildVCTwo.m in Sources */,
 				0458B68F1F78E69300C1F007 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
 				INFOPLIST_FILE = JJChildVC_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cn.JJChildVC-demo1";
@@ -292,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
 				INFOPLIST_FILE = JJChildVC_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cn.JJChildVC-demo1";
